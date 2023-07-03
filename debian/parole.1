@@ -1,0 +1,143 @@
+.TH PAROLE "1" "October 2013" "parole " "User Commands"
+.SH NAME
+parole \- Gstreamer-based media player
+.SH DESCRIPTION
+.SS "Usage:"
+.IP
+parole [OPTION...]
+.SS "Help Options:"
+.TP
+\fB\-h\fR, \fB\-\-help\fR
+Show help options
+.TP
+\fB\-\-help\-all\fR
+Show all help options
+.TP
+\fB\-\-help\-gst\fR
+Show GStreamer Options
+.TP
+\fB\-\-help\-gtk\fR
+Show GTK+ Options
+.PP
+GStreamer Options
+.TP
+\fB\-\-gst\-version\fR
+Print the GStreamer version
+.TP
+\fB\-\-gst\-fatal\-warnings\fR
+Make all warnings fatal
+.TP
+\fB\-\-gst\-debug\-help\fR
+Print available debug categories and exit
+.TP
+\fB\-\-gst\-debug\-level\fR=\fILEVEL\fR
+Default debug level from 1 (only error) to 5 (anything) or 0 for no output
+.TP
+\fB\-\-gst\-debug\fR=\fILIST\fR
+Comma\-separated list of category_name:level pairs to set specific levels for the individual categories. Example: GST_AUTOPLUG:5,GST_ELEMENT_*:3
+.TP
+\fB\-\-gst\-debug\-no\-color\fR
+Disable colored debugging output
+.TP
+\fB\-\-gst\-debug\-disable\fR
+Disable debugging
+.TP
+\fB\-\-gst\-plugin\-spew\fR
+Enable verbose plugin loading diagnostics
+.TP
+\fB\-\-gst\-plugin\-path\fR=\fIPATHS\fR
+Colon\-separated paths containing plugins
+.TP
+\fB\-\-gst\-plugin\-load\fR=\fIPLUGINS\fR
+Comma\-separated list of plugins to preload in addition to the list stored in environment variable GST_PLUGIN_PATH
+.TP
+\fB\-\-gst\-disable\-segtrap\fR
+Disable trapping of segmentation faults during plugin loading
+.TP
+\fB\-\-gst\-disable\-registry\-update\fR
+Disable updating the registry
+.TP
+\fB\-\-gst\-disable\-registry\-fork\fR
+Disable spawning a helper process while scanning the registry
+.PP
+GTK+ Options
+.TP
+\fB\-\-class\fR=\fICLASS\fR
+Program class as used by the window manager
+.TP
+\fB\-\-name\fR=\fINAME\fR
+Program name as used by the window manager
+.TP
+\fB\-\-screen\fR=\fISCREEN\fR
+X screen to use
+.TP
+\fB\-\-sync\fR
+Make X calls synchronous
+.TP
+\fB\-\-gtk\-module\fR=\fIMODULES\fR
+Load additional GTK+ modules
+.TP
+\fB\-\-g\-fatal\-warnings\fR
+Make all warnings fatal
+.SS "Application Options:"
+.TP
+\fB\-i\fR, \fB\-\-new\-instance\fR
+Open a new instance
+.TP
+\fB\-n\fR, \fB\-\-no\-plugins\fR
+Do not load plugins
+.TP
+\fB\-\-device\fR
+Set Audio\-CD/VCD/DVD device path
+.TP
+\fB\-p\fR, \fB\-\-play\fR
+Play or pause if already playing
+.TP
+\fB\-s\fR, \fB\-\-stop\fR
+Stop playing
+.TP
+\fB\-N\fR, \fB\-\-next\-track\fR
+Next track
+.TP
+\fB\-P\fR, \fB\-\-previous\-track\fR
+Previous track
+.TP
+\fB\-f\fR, \fB\-\-seek\-f\fR
+Seek forward
+.TP
+\fB\-b\fR, \fB\-\-seek\-b\fR
+Seek Backward
+.TP
+\fB\-r\fR, \fB\-\-raise\-volume\fR
+Raise volume
+.TP
+\fB\-l\fR, \fB\-\-lower\-volume\fR
+Lower volume
+.TP
+\fB\-m\fR, \fB\-\-mute\fR
+Mute volume
+.TP
+\fB\-V\fR, \fB\-\-version\fR
+Version information
+.TP
+\fB\-E\fR, \fB\-\-embedded\fR
+Use embedded mode
+.TP
+\fB\-F\fR, \fB\-\-fullscreen\fR
+Start in fullscreen mode
+.TP
+\fB\-\-xv\fR
+Enabled/Disable XV support
+.TP
+\fB\-a\fR, \fB\-\-add\fR
+Add files to playlist
+.TP
+\fB\-\-display\fR=\fIDISPLAY\fR
+X display to use
+.SH "REPORTING BUGS"
+Report bugs to http://bugs.debian.org
+.SH COPYRIGHT
+Copyright \(co 2009 Ali
+.br
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
