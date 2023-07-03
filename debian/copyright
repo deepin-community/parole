@@ -1,22 +1,43 @@
-Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+This package was debianized by Yves-Alexis Perez <corsac@debian.org> on
+Tue, 06 Oct 2009 10:37:51 +0200
 
-Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <https://www.gnu.org/licenses/>
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+It was downloaded from
+http://goodies.xfce.org/projects/applications/parole
+
+Upstream authors:
+   Ali Abdallah <aliov@xfce.org>
+
+Copyright holders:
+*:
+  © 2009-2010 Ali Abdallah <aliov@xfce.org>
+  License: GPL-2+
+src/parole-subtitle-encoding.{c,h}:
+  © 2001-2006 Bastien Nocera <hadess@hadess.net>
+  License: LGPL-2.1+
+src/parole-button.c:
+  © 2008-2009 Ali <aliov@xfce.org>
+  © 2006-2007 Richard Hughes <richard@hughsie.com>
+  License: GPL-2+
+src/parole-utils.c:
+  © 2009 Ali <aliov@xfce.org>
+  © 2005-2007 Benedikt Meurer <benny@xfce.org>
+  License: GPL-2+
+po/gl.po:
+  © 2009 Leandro Regueiro.
+parole/parole-pl-parser.c:
+  © 2009 Ali <aliov@xfce.org>
+  © 2002, 2003, 2004, 2005, 2006, 2007 Bastien Nocera
+  © 2003, 2004 Colin Walters <walters@rhythmbox.org>
+  © 2004-2005 Brian Tarricone, <bjt23@cornell.edu>
+browser-plugin/*:
+  © 1998, Netscape Communications Corporation
+  License: MPL-1.1 or GPL-2+ or LGPL-2.1+
+browser-plugin/media-plugin/*:
+  © 2008-2009 Ali <aliov@xfce.org>
+  License: GPL-2+
+browser-plugin/npruntime.h:
+  © 2004, Apple Computer, Inc.
+  © 2004, The Mozilla Foundation
+  License: BSD
+
+On Debian systems, the complete text of the GNU General Public License version 2 can be found in the file `/usr/share/common-licenses/GPL-2', the complete text of the GNU Lesser General Public License version 2.1 can be found in the file `/usr/share/common-licenses/LGPL-2.1'.
